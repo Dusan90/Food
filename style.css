@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Shadows Into Light', cursive; */
+    user-select: none;
+    text-shadow: 2px 2px 4px black;
+    scroll-behavior: smooth;
+}
+.info{
+    color: palevioletred;
+    background: rgba(0, 0, 0, 0.8);
+    
+    
+}
+
+.ic:hover{
+    color: gray;
+}
+
+.in{
+    color: palevioletred;
+}
+.tw{
+    color: rgb(78, 128, 235);
+}
+
+
+
+
+
+
+#head{
+    min-height: calc(100vh - 94px);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.terminalgastrobar.rs/login/images/najbolji-biftek-u-beogradu-900x900---92005807f85a1ab700a1e8084ce3b4dc2f4f6e93.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.vel{
+    min-height: calc(100vh - 94px);
+}
+
+.naslov{
+    color: #ffffff;
+    font-size: 5em;
+    border-bottom: 2px dotted white;
+    border-top: 2px dotted white;
+    padding: 10px;
+    margin-bottom: 20px
+
+}
+
+.naslov strong{
+    color: pink;
+}
+
+.dugme{
+    border: 1px solid pink;
+    font-size: 2em;
+    color: pink;
+    transition: all 1s ease;
+    
+}
+
+.dugme:hover{
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+}
+
+.dugme1{
+    position: absolute;
+    bottom: 1.5em;
+    border: 1px solid burlywood;
+    background: rgba(255, 255, 255, 0.2);
+    left: 49%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    animation: cadu 3s infinite ease;
+}
+
+.dugme1 a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+@keyframes cadu{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(20px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+nav{
+}
+
+.naruci{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+nav a strong{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+nav a{
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 10px;
+}
+
+
+.pop{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+
+#sect{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/aerial-aerial-photography-aerial-shot-2386587.jpg)center/cover fixed no-repeat;
+}
+
+.zoom{
+    position: relative;
+}
+
+
+.zoom img{
+    transition: all 1s ease;
+    width: 80vw;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.jel, .cena{
+
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 11;
+    color: pink;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.jel{
+    top: 20px;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.cena{
+    bottom: 10px;
+    right: 30px;
+
+}
+
+.zoom img:hover{
+    transform: scale(1.1);
+    border: 8px solid pink;
+    opacity: 0.8
+
+}
+
+.secti{
+    background:linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+    margin: 0 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.supice{
+    color: palevioletred;
+    font-weight: 800;
+}
+
+.me{
+    width: 80%;
+}
+
+.menu{
+    border: 2px solid palevioletred;
+    
+
+}
+.menu h2{
+    color: palevioletred;
+}
+
+.kolsl{
+    height: 50vh;
+    position: relative;
+    transition: all 1s ease;
+}
+
+.about{
+    color: white;
+    font-weight: 800;
+}
+
+.abt{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opis{
+    color: pink;
+    font-size: 20px
+}
+
+.dugme2{
+    border: 1px solid palevioletred;
+    font-size: 20px;
+    color: palevioletred;
+    transition: all 1s ease;
+}
+
+.dugme2:hover{
+    background: palevioletred;
+}
+
+.sl{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    margin: 20px;
+    transition: all 1s ease;
+    opacity: 0.6;
+}
+
+.sl1{
+    top: 0;
+    left: 0;
+}
+
+.sl2{
+    top: 0;
+    right: 0;
+}
+
+.sl3{
+    top: 30%;
+    left: 30%;
+    z-index: 3;
+}
+
+.sl4{
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.sl5{
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.sl:hover{
+    transform: scale(1.5) rotate(15deg);
+    border: 3px solid palevioletred;
+    z-index: 10;
+    opacity: 1;
+}
+
+.review-img{
+    width: 150px
+}
+
+.review-item{
+    background: rgba(255,255,255,0.5);
+    clip-path: polygon(0 0,100% 0, 90% 100%,0 100%)
+}
+
+.review-text{
+    color: brown;
+}
+
+.textp{
+    color:  black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+.card-header{
+    font-weight: 800;
+    color: palevioletred;
+
+}
+
+#contact .card{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.dugme3{
+    border: 1px solid palevioletred;
+    color: palevioletred;
+    transition: all 1s ease;
+}
+
+.dugme3:hover{
+    background: palevioletred
+}
+
+#phone{
+    background: palevioletred;
+    border: 1px solid brown;
+}
+
+#user{
+    background: palevioletred;
+    border: 1px solid brown;
+}
+
+#envelope{
+    background: palevioletred;
+    border: 1px solid brown;
+}
+
+
+
+
